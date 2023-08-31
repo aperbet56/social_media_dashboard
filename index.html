@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | social-media-dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="titles">
+        <h1 class="title">Social Media Dashboard</h1>
+        <p class="text">Total Followers: 23,004</p>
+      </div>
+      <div class="border"></div>
+      <div class="toggle__container">
+        <input type="checkbox" id="switch" name="theme" />
+        <label for="switch"></label>
+        <p>Dark Mode</p>
+      </div>
+    </header>
+
+    <main class="main__content">
+      <section class="card__section">
+        <article class="card fb">
+          <div class="card__header">
+            <img src="images/icon-facebook.svg" alt="facebook-icon" />
+            <p>@nathanf</p>
+          </div>
+          <div class="card__body">
+            <span>1987</span>
+            <p>Followers</p>
+          </div>
+          <div class="card__footer">
+            <img src="images/icon-up.svg" alt="⬆️" />
+            <p>12 Today</p>
+          </div>
+        </article>
+
+        <article class="card tw">
+          <div class="card__header">
+            <img src="images/icon-twitter.svg" alt="twitter-icon" />
+            <p>@nathanf</p>
+          </div>
+          <div class="card__body">
+            <span>1024</span>
+            <p>Followers</p>
+          </div>
+          <div class="card__footer">
+            <img src="images/icon-up.svg" alt="⬆️" />
+            <p>99 Today</p>
+          </div>
+        </article>
+
+        <article class="card ig">
+          <div class="card__header">
+            <img src="images/icon-instagram.svg" alt="instagram-icon" />
+            <p>@realnathanf</p>
+          </div>
+          <div class="card__body">
+            <span>11k</span>
+            <p>Followers</p>
+          </div>
+          <div class="card__footer">
+            <img src="images/icon-up.svg" alt="⬆️" />
+            <p>1099 Today</p>
+          </div>
+        </article>
+
+        <article class="card yt">
+          <div class="card__header">
+            <img src="images/icon-youtube.svg" alt="youtube-icon" />
+            <p>Nathan F.</p>
+          </div>
+          <div class="card__body">
+            <span>8239</span>
+            <p>Followers</p>
+          </div>
+          <div class="card__footer">
+            <img src="images/icon-down.svg" alt="arrow down" />
+            <p>144 Today</p>
+          </div>
+        </article>
+      </section>
+
+      <h2 class="overview__title">Overview - Today</h2>
+
+      <section class="overview__section">
+        <article class="overview__card f">
+          <div class="left">
+            <p>Page Views</p>
+            <span>87</span>
+          </div>
+          <div class="right">
+            <img src="images/icon-facebook.svg" alt="facebook-icon" />
+            <div class="growth">
+              <img src="images/icon-up.svg" alt="up" />
+              <p>3%</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="overview__card f">
+          <div class="left">
+            <p>Likes</p>
+            <span>52</span>
+          </div>
+          <div class="right">
+            <img src="images/icon-facebook.svg" alt="facebook-icon" />
+            <div class="growth">
+              <img src="images/icon-down.svg" alt="down" />
+              <p class="down">2%</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="overview__card i">
+          <div class="left">
+            <p>Likes</p>
+            <span>5462</span>
+          </div>
+          <div class="right">
+            <img src="images/icon-instagram.svg" alt="instagram-icon" />
+            <div class="growth">
+              <img src="images/icon-up.svg" alt="up" />
+              <p>2257%</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="overview__card i">
+          <div class="left">
+            <p>Profile Views</p>
+            <span>52K</span>
+          </div>
+          <div class="right">
+            <img src="images/icon-instagram.svg" alt="facebook-icon" />
+            <div class="growth">
+              <img src="images/icon-up.svg" alt="up" />
+              <p>1375%</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="overview__card t">
+          <div class="left">
+            <p>Retweets</p>
+            <span>177</span>
+          </div>
+          <div class="right">
+            <img src="images/icon-twitter.svg" alt="icon-twitter" />
+            <div class="growth">
+              <img src="images/icon-up.svg" alt="up" />
+              <p>303%</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="overview__card t">
+          <div class="left">
+            <p>Likes</p>
+            <span>507</span>
+          </div>
+          <div class="right">
+            <img src="images/icon-twitter.svg" alt="facebook-icon" />
+            <div class="growth">
+              <img src="images/icon-up.svg" alt="up" />
+              <p>553%</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="overview__card y">
+          <div class="left">
+            <p>Likes</p>
+            <span>107</span>
+          </div>
+          <div class="right">
+            <img src="images/icon-youtube.svg" alt="youtube-icon" />
+            <div class="growth">
+              <img src="images/icon-down.svg" alt="up" />
+              <p class="down">19%</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="overview__card y">
+          <div class="left">
+            <p>Total Views</p>
+            <span>1407</span>
+          </div>
+          <div class="right">
+            <img src="images/icon-youtube.svg" alt="youtube-icon" />
+            <div class="growth">
+              <img src="images/icon-down.svg" alt="up" />
+              <p class="down">12%</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="attribution">
+      <span
+        >Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/aperbet56?tab=repositories" target="_blank">
+          aperbet56</a
+        >.</span
+      >
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
