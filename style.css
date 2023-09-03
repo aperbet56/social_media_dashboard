@@ -102,6 +102,10 @@ header .text {
     color: var(--dark_grayish_blue_text);
 }
 
+.border {
+    display: none;
+}
+
 .toggle__container {
     display: flex;
     flex-direction: row-reverse;
@@ -391,6 +395,7 @@ input:checked + label::after {
     }
 
    .border {
+        display: block;
         margin: 20px 0;
         width: 100%;
         border: 1px solid var(--toggle_bg_light);
