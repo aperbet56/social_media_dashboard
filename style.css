@@ -98,7 +98,7 @@ header {
     width: 100%;
     z-index: 10;
     padding-top: 25px;
-    padding-inline: 60px;
+    padding-inline: 100px;
 }
 
 header .titles {
@@ -179,7 +179,7 @@ input:checked+label::after {
 
 .main__content {
     flex-grow: 1;
-    padding: 25px 60px;
+    padding: 25px 100px;
     z-index: 10;
 }
 
@@ -411,7 +411,7 @@ input:checked+label::after {
 
 /**** Responsive design version tablette ****/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1040px) {
 
     .card__section,
     .overview__section {
@@ -423,11 +423,6 @@ input:checked+label::after {
 /**** Responsive design version mobile ****/
 
 @media screen and (max-width: 767px) {
-
-    html::before,
-    body::before {
-        height: 250px;
-    }
 
     header,
     .main__content {
