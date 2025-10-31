@@ -111,6 +111,7 @@ header .title {
     font-weight: 700;
     color: var(--very_dark_blue_text);
     margin-bottom: 8px;
+    margin-top: 0;
 }
 
 header .text {
@@ -205,12 +206,14 @@ input:checked+label::after {
     background-color: var(--light_grayish_blue_cardBG);
     border-radius: 6px;
     transition: background-color 0.3s ease-out,
-        transform 0.3s ease-in-out;
+        transform 0.3s ease-in-out,
+        cursor 0.3s ease-in-out;
 }
 
 .card:hover {
     background-color: var(--hover_color);
     transform: scale(1.03);
+    cursor: pointer;
 }
 
 .card__header {
@@ -328,12 +331,14 @@ input:checked+label::after {
     border-radius: 6px;
     padding: 1rem 3rem;
     transition: background-color 0.3s ease-out,
-        transform 0.3s ease-in-out;
+        transform 0.3s ease-in-out,
+        cursor 0.3s ease-in-out;
 }
 
 .overview__card:hover {
     background-color: var(--hover_color);
     transform: scale(1.03);
+    cursor: pointer;
 }
 
 .left,
@@ -390,7 +395,7 @@ input:checked+label::after {
     align-items: center;
     font-size: 16px;
     text-align: center;
-    margin-top: 5rem;
+    margin-block: 3rem;
     padding-inline: 10px;
     color: var(--very_dark_blue_text);
 }
